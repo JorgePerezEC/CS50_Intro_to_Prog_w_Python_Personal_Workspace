@@ -1,0 +1,17 @@
+#Tuple
+
+def main():
+    student = get_student()
+    print(f"{student[0]} from {student[1]}")
+
+
+def get_student():
+    name = input("Name: ")
+    house = input("House: ")
+    return (name, house) #tuple same thing as name, house
+
+#Tuple are unmutabble
+
+
+if __name__ == "__main__":
+    main()
